@@ -1,0 +1,143 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.2rem;
+    margin: 0 10%;
+    background-color: #F5F0E8;
+    color: #33261D;
+}
+
+.color-panel {
+    display: inline-block;
+    width: 12.7%;
+    padding: 0.8rem 2rem;
+    text-align: center;
+    border-radius: 0.8rem;
+    margin: 1%;
+    border:1px solid #33261D;
+}
+
+span {
+    font-weight: bold;
+}
+    
+.brown {
+    background-color: #4B382A;
+    color: #F5F0E8;
+}
+
+.cream {
+    background-color: #F2E9D9;
+}
+
+.accent {
+    background-color: #99C2A2;
+}
+
+.background {
+    background-color: #F5F0E8;
+    border:1px solid #33261D;
+}
+
+.text {
+    background-color: #33261D;
+    margin-bottom: 0;
+    color: #F5F0E8;
+}
+
+.color-class {
+    font-weight: bold;
+    margin: 2px 0;
+}
+
+.color-label {
+    font-weight: 500;
+    margin: 2px 0;
+}
+
+.color-hex {
+    font-weight: 200;
+    margin: 2px 0;
+}
+
+.font-h1 {
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+    line-height: 1.2;
+    margin-bottom: 0;
+}
+
+h1 {
+    font-family: "Open ", serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+    line-height: 1.2;
+    text-align: center;
+    padding-top: 6rem;
+    padding-bottom: 1.5rem;
+    margin-top: 0;
+}
+
+.font-description {
+    font-size: 1.2rem;
+    margin-top: 0.2rem;
+}
+
+.font-h2 {
+    font-size: 1.8rem;
+    line-height: 1.4;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 1.8rem;
+    line-height: 1.4;
+    margin-top: 2rem;
+    margin-bottom: 0;
+    font-weight: 600;
+    border-bottom: 1px solid #33261D;
+}
+
+.font-body {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+
+.action { 
+    font-size: 1.2rem;
+    line-height: 1.2;
+    margin-bottom: 0;
+    background-color: #99C2A2;
+    border-color: #4B382A;
+    width: 220px;
+    height: 50px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    box-shadow: 1px 1px #33261D;
+    cursor:pointer;
+}
+
+.action:hover {
+    text-decoration: underline;
+}
+
+.action:active {
+    background-color: #33261D;
+    color:#F2E9D9;
+}
+
+footer {
+    font-weight: 100;
+    text-align: center;
+    margin: 5rem auto;
+}
+
+footer p {
+    margin: 0;
+}
+
+a {
+    color:#33261D
+}
